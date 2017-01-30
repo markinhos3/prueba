@@ -5,19 +5,37 @@ import java.util.Scanner;
 
 public class Read {
 
-    public static void read(){
 
-        System.out.println("Dame 2 números: ");
+    private String x;
+    private String y;
+
+    public String getX() {
+        return x;
+    }
+
+    public void setX(String x) {
+        this.x = x;
+    }
+
+    public String getY() {
+        return y;
+    }
+
+    public void setY(String y) {
+        this.y = y;
+    }
+
+    public static void give() {
+        System.out.println("Dame 2 cadenas: ");
 
         Scanner out = new Scanner(System.in);
 
-        int x = out.nextInt();
-        int y = out.nextInt();
 
-        int z = x + y;
+        String y = out.nextLine();
+        String  x = out.nextLine();
 
-        System.out.println("La suma es: " + z);
+
+        System.out.println("1º: " + y + "\n2º: "+ x);
     }
-
 }
 
