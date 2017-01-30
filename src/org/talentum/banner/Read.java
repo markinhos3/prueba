@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Read {
 
-    public void read(){
+    public static void read(){
 
         System.out.println("Dame 2 números: ");
 
