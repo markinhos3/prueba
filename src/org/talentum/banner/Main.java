@@ -1,5 +1,7 @@
 package org.talentum.banner;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -7,6 +9,9 @@ public class Main {
         segunda seg=new segunda();
         prim.imprimir();
         seg.imprimir();
+
+        Read suma = new Read();
+        suma.read();
 
     }
 }
