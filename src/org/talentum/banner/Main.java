@@ -10,23 +10,22 @@ public class Main {
         prim.imprimir();
         seg.imprimir();
 
-       read();
+
+        read();
 
     }
 
     private static void read() {
-        System.out.println("Dame 2 números: ");
+        System.out.println("dame un número: ");
 
         Scanner out = new Scanner(System.in);
 
-        int x = out.nextInt();
-        int y = out.nextInt();
+        String x = out.nextLine();
 
-        int z = x + y;
+        String y = out.nextLine();
 
-        System.out.println("La suma es: " + z);
+        System.out.println("La cadena es: \n" + "1º: " + x + "\n2º: " + y);
     }
-
 
 }
 
