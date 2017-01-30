@@ -1,5 +1,7 @@
 package org.talentum.banner;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -8,7 +10,23 @@ public class Main {
         prim.imprimir();
         seg.imprimir();
 
+
+        read();
+
     }
+
+    private static void read() {
+        System.out.println("dame un número: ");
+
+        Scanner out = new Scanner(System.in);
+
+        String x = out.nextLine();
+
+        String y = out.nextLine();
+
+        System.out.println("La cadena es: \n" + "1º: " + x + "\n2º: " + y);
+    }
+
 }
 
 
